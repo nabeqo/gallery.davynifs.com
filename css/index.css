@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/*********************
+
+/********************/
+
+
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+h1 {
+	height: 10px;
+	padding: 5px;
+	line-height: 7px;
+}
+
+#main-container {
+	display: -webkit-box;
+	display: -moz-box;
+	border-top: 1px solid #E2E2E2;
+}
+
+nav {
+
+}
+
+nav li {
+	height: 40px;
+	border-top: 1px solid #999;
+	line-height: 36px;
+	text-align: center;
+	cursor: pointer;
+}
+
+section {
+
+}
+
+section ul {
+
+}
+
+section ul li.item {
+	float: left;
+	width: 200px;
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #e2e2e2;
+}
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+section ul li.item img {
+width: 200px;
+height: 200px;
+}
+
+

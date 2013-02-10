@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>gallery.davynifs.com</title>
+	<meta name="robots" content="noindex,nofollow" />
+	<meta name="description" content="test">
+	<meta name="author" content="davynifs">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/reset.css" type="text/css">
+	<link rel="stylesheet" href="/css/index.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+
+	</style>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="/js/modernizr-2.6.2.js"></script>
+	<script src="/js/jquery.masonry.min.js"></script>
+	<script type="text/javascript">
+	(function($){
+		$(function(){
+			$('#gallery-container').masonry({
+			itemSelector : '.item',
+			isFitWidth: true,
+			isAnimated: !Modernizr.csstransitions,
+				animationOptions: {
+					duration: 400,
+					easing: 'linear',
+					queue: false
+				}
+			});
+		});
+	})(jQuery);
+	</script>
+</head>
+<body>
+<h1>gallery</h1>
+<div id="main-container">
+	<nav>
+		<ul>
+			<li>ALL</li>
+			<li>pattern1</li>
+			<li>pattern2</li>
+			<li>pattern3</li>
+			<li>pattern4</li>
+		</ul>
+	</nav>
+	<section id="gallery-container">
+		<ul>
+			<li class="item">
+				<dl>
+					<dt>title</dt>
+						<dd><img src="/img/sum/1.jpg" alt=""></dd>
+						<dd>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+						</dd>
+				</dl>
+			<li class="item">
+				<dl>
+					<dt>title</dt>
+						<dd><img src="/img/sum/1.jpg" alt=""></dd>
+						<dd>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+						</dd>
+				</dl>
+			</li>
+			<li class="item">
+				<dl>
+					<dt>title</dt>
+						<dd><img src="/img/sum/1.jpg" alt=""></dd>
+						<dd>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
+						</dd>
+				</dl>
+			</li>
+			<li class="item">
+				<dl>
+					<dt>title</dt>
+						<dd><img src="/img/sum/1.jpg" alt=""></dd>
+						<dd>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+						</dd>
+				</dl>
+			</li>
+			<li class="item">
+				<dl>
+					<dt>title</dt>
+						<dd><img src="/img/sum/1.jpg" alt=""></dd>
+						<dd>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+						</dd>
+				</dl>
+			</li>
+			<li class="item">
+				<dl>
+					<dt>title</dt>
+						<dd><img src="/img/sum/1.jpg" alt=""></dd>
+						<dd>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
+						</dd>
+				</dl>
+			</li>
+			<li class="item">
+				<dl>
+					<dt>title</dt>
+						<dd><img src="/img/sum/1.jpg" alt=""></dd>
+						<dd>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing
+						</dd>
+				</dl>
+			</li>
+			<li class="item">
+				<dl>
+					<dt>title</dt>
+						<dd><img src="/img/sum/1.jpg" alt=""></dd>
+						<dd>
+							Lorem ipsum dolor sit amet
+						</dd>
+				</dl>
+			</li>
+		</ul>
+	</section>
+</div>
+</body>
+
+</html>
